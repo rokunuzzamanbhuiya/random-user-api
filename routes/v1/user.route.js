@@ -8,6 +8,7 @@ const updateOneUser = require("../../controllers/updateOneUser");
 const validateUserId = require("../../middlewares/validateUserId");
 const bulkUpdate = require("../../controllers/bulkUpdate");
 const bodyValidation = require("../../middlewares/bodyValidation");
+const deleteUser = require("../../controllers/deleteUser");
 
 const router = express.Router();
 
@@ -53,5 +54,13 @@ router.patch("/update/:id", validateUserId, updateOneUser);
  * @apiSuccess update many user info.
  */
 router.patch("/bulk-update", bodyValidation, bulkUpdate);
+
+/**
+ * @api {delete} /user/delete/:id delete one user
+ * @apiDescription delete one user
+ *
+ * @apiSuccess delete one user.
+ */
+router.delete("/delete/:id", validateUserId, deleteUser);
 
 module.exports = router;

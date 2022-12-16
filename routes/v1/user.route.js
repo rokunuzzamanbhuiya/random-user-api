@@ -6,6 +6,8 @@ const uniqueIdValidation = require("../../middlewares/uniqueIdValidation");
 const validateUser = require("../../middlewares/validateUser");
 const updateOneUser = require("../../controllers/updateOneUser");
 const validateUserId = require("../../middlewares/validateUserId");
+const bulkUpdate = require("../../controllers/bulkUpdate");
+const bodyValidation = require("../../middlewares/bodyValidation");
 
 const router = express.Router();
 
@@ -43,5 +45,13 @@ router.post("/save", validateUser, uniqueIdValidation, saveUser);
  * @apiSuccess update one user info.
  */
 router.patch("/update/:id", validateUserId, updateOneUser);
+
+/**
+ * @api {patch} /user/bulk-update update many user info
+ * @apiDescription update many user info
+ *
+ * @apiSuccess update many user info.
+ */
+router.patch("/bulk-update", bodyValidation, bulkUpdate);
 
 module.exports = router;

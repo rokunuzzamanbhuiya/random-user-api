@@ -1,1 +1,122 @@
-[{"id":1,"gender":"female","name":"Josfine","contact":"+91328679","address":"Gwenborough","photoUrl":"https://randomuser.me/api/portraits/women/86.jpg"},{"id":2,"gender":"male","name":"Aubert","contact":"+91328680","address":"Wisokyburgh","photoUrl":"https://randomuser.me/api/portraits/men/93.jpg"},{"id":3,"gender":"female","name":"Durand","contact":"+91328682","address":"McKenziehaven","photoUrl":"https://randomuser.me/api/portraits/women/17.jpg"},{"id":4,"gender":"male","name":"Wagner","contact":"+91328684","address":"South Elvis","photoUrl":"https://randomuser.me/api/portraits/men/36.jpg"},{"id":5,"gender":"male","name":"Vosman","contact":"+91328685","address":"Roscoeview","photoUrl":"https://randomuser.me/api/portraits/men/44.jpg"},{"id":6,"gender":"female","name":"Olivia","contact":"+91328686","address":"South Christy","photoUrl":"https://randomuser.me/api/portraits/women/37.jpg"},{"id":7,"gender":"female","name":"Babacan","contact":"+91328687","address":"Howemouth","photoUrl":"https://randomuser.me/api/portraits/women/5.jpg"},{"id":8,"gender":"male","name":"Reusch","contact":"+91328688","address":"Aliyaview","photoUrl":"https://randomuser.me/api/portraits/men/85.jpg"},{"id":9,"gender":"male","name":"Monsieur","contact":"+91328697","address":"Bartholomebury","photoUrl":"https://randomuser.me/api/portraits/men/75.jpg"},{"id":10,"gender":"male","name":"Clarke","contact":"+91328689","address":"Lebsackbury","photoUrl":"https://randomuser.me/api/portraits/men/40.jpg"},{"id":12,"gender":"male","name":"Jubert","contact":"+9132868082","address":"Wisokyburgh","photoUrl":"https://randomuser.me/api/portraits/men/93.jpg"},{"id":11,"gender":"male","name":"Jubert Hr","contact":"+913286805","address":"Wisokyburgh","photoUrl":"https://randomuser.me/api/portraits/men/93.jpg"},{"id":22,"gender":"male","name":"Jubert Horon","contact":"+8132868056","address":"Wisokyburgh","photoUrl":"https://randomuser.me/api/portraits/men/93.jpg"},{"id":20,"gender":"male","name":"Jubert Horon Mia","contact":"+81328680577","address":"Wisokyburgh","photoUrl":"https://randomuser.me/api/portraits/men/93.jpg"}]
+[
+    {
+        "id": 1,
+        "gender": "female",
+        "name": "Josfine",
+        "contact": "+91328679",
+        "address": "Gwenborough",
+        "photoUrl": "https://randomuser.me/api/portraits/women/86.jpg"
+    },
+    {
+        "id": 2,
+        "gender": "male",
+        "name": "Aubert",
+        "contact": "+91328680",
+        "address": "Wisokyburgh",
+        "photoUrl": "https://randomuser.me/api/portraits/men/93.jpg"
+    },
+    {
+        "id": 3,
+        "gender": "female",
+        "name": "Durand",
+        "contact": "+91328682",
+        "address": "McKenziehaven",
+        "photoUrl": "https://randomuser.me/api/portraits/women/17.jpg"
+    },
+    {
+        "id": 4,
+        "gender": "male",
+        "name": "Wagner",
+        "contact": "+91328684",
+        "address": "South Elvis",
+        "photoUrl": "https://randomuser.me/api/portraits/men/36.jpg"
+    },
+    {
+        "id": 5,
+        "gender": "male",
+        "name": "Vosman",
+        "contact": "+91328685",
+        "address": "Roscoeview",
+        "photoUrl": "https://randomuser.me/api/portraits/men/44.jpg"
+    },
+    {
+        "id": 6,
+        "gender": "female",
+        "name": "Olivia",
+        "contact": "+91328686",
+        "address": "South Christy",
+        "photoUrl": "https://randomuser.me/api/portraits/women/37.jpg"
+    },
+    {
+        "id": 7,
+        "gender": "female",
+        "name": "Babacan",
+        "contact": "+91328687",
+        "address": "Howemouth",
+        "photoUrl": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    {
+        "id": 8,
+        "gender": "male",
+        "name": "Reusch",
+        "contact": "+91328688",
+        "address": "Aliyaview",
+        "photoUrl": "https://randomuser.me/api/portraits/men/85.jpg"
+    },
+    {
+        "id": 9,
+        "gender": "male",
+        "name": "Monsieur",
+        "contact": "+91328697",
+        "address": "Bartholomebury",
+        "photoUrl": "https://randomuser.me/api/portraits/men/75.jpg"
+    },
+    {
+        "id": 10,
+        "gender": "male",
+        "name": "Clarke",
+        "contact": "+91328689",
+        "address": "Lebsackbury",
+        "photoUrl": "https://randomuser.me/api/portraits/men/40.jpg"
+    },
+    {
+        "id": 12,
+        "gender": "male",
+        "name": "Jubert",
+        "contact": "+9132868082",
+        "address": "Wisokyburgh",
+        "photoUrl": "https://randomuser.me/api/portraits/men/93.jpg"
+    },
+    {
+        "id": 11,
+        "gender": "male",
+        "name": "Jubert Hr",
+        "contact": "+913286805",
+        "address": "Wisokyburgh",
+        "photoUrl": "https://randomuser.me/api/portraits/men/93.jpg"
+    },
+    {
+        "id": 22,
+        "gender": "male",
+        "name": "Jubert Horon",
+        "contact": "+8132868056",
+        "address": "Wisokyburgh",
+        "photoUrl": "https://randomuser.me/api/portraits/men/93.jpg"
+    },
+    {
+        "id": 21,
+        "gender": "male",
+        "name": "Jubert H",
+        "contact": "+8132868056",
+        "address": "Wisokyburgh",
+        "photoUrl": "https://randomuser.me/api/portraits/men/93.jpg"
+    },
+    {
+        "id": 20,
+        "gender": "male",
+        "name": "Jubert Horon Mi",
+        "contact": "+81328680577",
+        "address": "Wisokyburgh",
+        "photoUrl": "https://randomuser.me/api/portraits/men/93.jpg"
+    }
+]

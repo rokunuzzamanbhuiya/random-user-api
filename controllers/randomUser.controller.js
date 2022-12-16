@@ -4,11 +4,11 @@ const randomUser = (req, res) => {
   fs.readFile("./database/users.json", "utf-8", (err, data) => {
     if (err) {
       console.log(err);
-      res.status(500).json({ error: "internal error" });
+      res.status(500).json({ error: "Internal error" });
     } else {
       const myData = JSON.parse(data);
       if (myData.length === 0) {
-        res.status(200).json({ message: "no data found" });
+        res.status(200).json({ message: "No data found" });
       } else {
         const dataCount = myData.length;
         const randomUserIndex = Math.floor(Math.random() * dataCount);

@@ -1,6 +1,9 @@
 const express = require("express");
 const randomUser = require("../../controllers/randomUser.controller");
 const allUser = require("../../controllers/allUser.controller");
+const saveUser = require("../../controllers/saveUser");
+const uniqueIdValidation = require("../../middlewares/uniqueIdValidation");
+const validateUser = require("../../middlewares/validateUser");
 
 const router = express.Router();
 
@@ -22,5 +25,13 @@ router.get("/random", randomUser);
  * @apiSuccess {Object[]} All User.
  */
 router.get("/all", allUser);
+
+/**
+ * @api {post} /user/save Create a new user
+ * @apiDescription Create new user
+ *
+ * @apiSuccess new user created.
+ */
+router.post("/save", validateUser, uniqueIdValidation, saveUser);
 
 module.exports = router;

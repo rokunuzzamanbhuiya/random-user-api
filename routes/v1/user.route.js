@@ -4,6 +4,8 @@ const allUser = require("../../controllers/allUser.controller");
 const saveUser = require("../../controllers/saveUser");
 const uniqueIdValidation = require("../../middlewares/uniqueIdValidation");
 const validateUser = require("../../middlewares/validateUser");
+const updateOneUser = require("../../controllers/updateOneUser");
+const validateUserId = require("../../middlewares/validateUserId");
 
 const router = express.Router();
 
@@ -33,5 +35,13 @@ router.get("/all", allUser);
  * @apiSuccess new user created.
  */
 router.post("/save", validateUser, uniqueIdValidation, saveUser);
+
+/**
+ * @api {patch} /user/update/:id update one user info
+ * @apiDescription update one user info
+ *
+ * @apiSuccess update one user info.
+ */
+router.patch("/update/:id", validateUserId, updateOneUser);
 
 module.exports = router;

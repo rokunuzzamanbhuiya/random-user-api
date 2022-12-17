@@ -9,7 +9,7 @@ const port = process.env.PORT || 9000;
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/v1/user", userRoute);
+app.use("/user", userRoute);
 
 app.get("/", (req, res) => {
   res.status(200).send("Hello Express! All are Okay!");

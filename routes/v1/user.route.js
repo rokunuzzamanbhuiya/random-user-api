@@ -1,14 +1,14 @@
 const express = require("express");
 const randomUser = require("../../controllers/randomUser.controller");
 const allUser = require("../../controllers/allUser.controller");
-const saveUser = require("../../controllers/saveUser");
+const saveUser = require("../../controllers/saveUser.controller");
 const uniqueIdValidation = require("../../middlewares/uniqueIdValidation");
 const validateUser = require("../../middlewares/validateUser");
-const updateOneUser = require("../../controllers/updateOneUser");
+const updateOneUser = require("../../controllers/updateOneUser.controller");
 const validateUserId = require("../../middlewares/validateUserId");
-const bulkUpdate = require("../../controllers/bulkUpdate");
+const bulkUpdate = require("../../controllers/bulkUpdate.controller");
 const bodyValidation = require("../../middlewares/bodyValidation");
-const deleteUser = require("../../controllers/deleteUser");
+const deleteUser = require("../../controllers/deleteUser.controller");
 
 const router = express.Router();
 
